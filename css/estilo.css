@@ -12,6 +12,32 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Estilo Dark Theme*/
+.dark-theme{
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme h1, 
+.dark-theme h2{
+    color: #fff;
+}
+
+.dark-theme section.destaques article .info{
+    background-color: #555;
+}
+
+.dark-theme footer{
+    background-color: #222;
+}
+
+.dark-theme form input,
+.dark-theme form textarea{
+    background-color: #555;
+    color: #fff;
+    border: none;
+}
+
 
 .container {
     width: 1200px;
@@ -259,6 +285,7 @@ footer .info a{
     color: white;
     text-decoration: none;
 }
+
 
 footer .info h4,
 footer .info p{
